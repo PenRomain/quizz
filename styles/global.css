@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F1E8;
+  font-family: 'Radley', serif;
+}
+
+h1, h2 {
+  color: #9B4819;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+i {
+  color: black;
+}
+
+i > h2 {
+  font-size: 30px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1rem;
 }
