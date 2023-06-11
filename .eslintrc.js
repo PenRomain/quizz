@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'treact/jsx-props-no-spreading': 0,
+    // 'treact/jsx-props-no-spreading': 0,
     'no-shadow': 0,
     'react/prop-types': 0,
     'jsx-a11y/anchor-is-valid': 0,
